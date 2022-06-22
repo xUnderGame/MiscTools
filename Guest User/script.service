@@ -1,0 +1,7 @@
+[Unit]
+Description=Delete Guest Users
+After=default.target
+[Service]
+ExecStart=/etc/guest-session/logout.sh
+[Install]
+WantedBy=default.target
